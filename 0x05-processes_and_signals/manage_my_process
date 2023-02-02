@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-while true
+# writes I am alive! to the file /tmp/my_process loop
+
+while :
 do
-    sudo bash -c "echo \"I am alive!\" >> /tmp/my_process"
-    sleep 2
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
 done
